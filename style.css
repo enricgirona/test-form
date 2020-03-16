@@ -55,6 +55,7 @@ body {
   font-weight: 400;
   color: rgb(58, 58, 58);
   font-size: 16px;
+  border-radius: 0;
 }
 
 input {
@@ -62,6 +63,7 @@ input {
   border-color: rgb(58, 58, 58);
   color: rgb(58, 58, 58);
   padding: 5px 0 10px 0;
+  border-radius: 0;
 }
 
 input::placeholder {
