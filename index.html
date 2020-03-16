@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="description" content="Formulario de registro">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script defer src="./script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <div class="logo-container"><img class="logo" src="./img/logo.svg"></div>
+                <div class="subtitle">
+                    <p>Por favor, rellena los campos siguientes:</p>
+                </div>
+                <form class="form" id="form">
+                    <div class="line">
+                        <input class="field" type="text" id="nombre" name="Nombre" placeholder="Nombre">
+                        <input class="field" type="text" id="apellido" name="Apellido" placeholder="Apellido">
+                    </div>
+                    <div class="line">
+                        <input class="field" type="text" id="email" name="Email" placeholder="Email">
+                        <input class="field" type="text" id="rep-email" name="Repetir Email" placeholder="Repetir Email">
+                    </div>
+                    <div class="last-line">
+                        <input class="field" type="text" id="dni" name="DNI" placeholder="DNI">
+                        <input class="field" type="phone" id="movil" name="Móvil" placeholder="Móvil">
+                    </div>
+                    <div class="button-line">
+                        <button class="button" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
